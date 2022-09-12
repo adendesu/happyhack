@@ -156,6 +156,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    z-index: -2;
   }
 
 .course {
@@ -215,9 +216,7 @@ p {
     justify-content: center;
     align-items: center;
 }
-#limited{
-    padding: 100px 0;
-}
+
 .slider{
     margin: 30px auto;
     width: 80%;
@@ -226,8 +225,6 @@ p {
     height: auto;
     width: 100%;
 }
-
-
 
 .map{
 text-align: center;
