@@ -15,15 +15,15 @@ $(window).scroll(function(){
 });
 $('.slider').slick({
     autoplay: false, // 自動でスクロールしない
-    slidesToShow: 3, // 表示するスライドの数
-    swipe: true, // 操作による切り替えはさせない
-    arrows: true, // 矢印非表示
+    slidesToShow: 4, // 表示するスライドの数
+    swipe: true, // 操作によるスワイプ可能
+    arrows: true, // 矢印表示
     dots: true,
     responsive: [
       {
-        breakpoint: 750,
+        breakpoint: 480,
         settings: {
-          slidesToShow: 2, // 画面幅750px以下でスライド3枚表示
+          slidesToShow: 1, // 画面幅480px以下でスライド1枚表示
         }
       }
     ]
