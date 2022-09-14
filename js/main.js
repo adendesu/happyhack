@@ -19,13 +19,25 @@ $('.slider').slick({
     swipe: true, // 操作によるスワイプ可能
     arrows: true, // 矢印表示
     dots: true,
-    responsive: [
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1, // 画面幅480px以下でスライド1枚表示
-        }
-      }
+    responsive:[
+        {
+            breakpoint: 1050,
+            settings:{
+                slidesToShow:3,
+            }
+        },
+        {
+            breakpoint: 800,
+            settings:{
+                slidesToShow:2,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings:{
+                slidesToShow:1,
+            }
+        },
     ]
   });
 });
