@@ -1,22 +1,20 @@
 *{
-    padding: 0;
-    margin: 0;
+   margin: 0px;
+   padding: 0px;
 }
-div{
-    display: block;
-}
+
 .bg-swicher{
     width: 100vw;
     height: 100vh;
-    background-image: url(images/background1.jpg) ;
-    background-position: center center;
+    background-image: url(images/background1.jpg) center/center ;
     background-size: cover;
-   
 }
+
 nav{
+    position: absolute;
     top: 0;
   right: 0;
-  z-index: 2;
+
 }
 ul {
     overflow: hidden;
@@ -57,6 +55,9 @@ h1{
     transform: translateY(-20px);
     transition: all 1s;
 }
+
+
+  
 h2 {
     text-align: center;
     font-family: "Futura";
