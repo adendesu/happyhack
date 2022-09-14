@@ -3,12 +3,6 @@
    padding: 0px;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .bg-swicher{
     width: 100vw;
     height: 100vh;
@@ -19,7 +13,7 @@
 nav{
     position: absolute;
     top: 0;
-  right: 0;
+    right: 0;
 
 }
 ul {
@@ -55,6 +49,9 @@ h1{
     font-family: "Futura";
     font-style: italic;
     font-weight: lighter;
+}
+.TITLE_img{
+    width: 80vw;
 }
 .fadein{
     opacity: 0;
@@ -253,7 +250,7 @@ footer{
     color: #3D5CDB;
 }
 @media(max-width:450px) {
-    .TITLE h1 {
+    .TITLE_img {
       width: 70vw;
       margin: auto;
     }
@@ -266,8 +263,6 @@ footer{
       font-style: italic;
       font-weight: lighter;
     }
-  
-
     h2 {
       font-size: 200%;
       padding-bottom: 20px;
